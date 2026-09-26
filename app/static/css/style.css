@@ -1,0 +1,435 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Container */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+
+header {
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: hsl(51, 100%, 50%);
+}
+
+/* Flash Messages */
+
+.flash {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.flash.success {
+    color: #155724;
+    background-color: #d4edda;
+}
+
+.flash.danger {
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+.flash.info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+}
+
+/* Login and Register */
+
+.login-box {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.login-box p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-box p  {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login-box p a:hover {
+    text-decoration: underline;
+}
+
+/* Register Box */
+
+.register-box {
+
+    width: 450px;
+    margin:  40px auto;
+    padding: 35px;
+    background: #ffffff;
+    border: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+
+}
+
+/* =========================
+
+   HEADING
+
+========================= */
+
+.register-box h2 {
+
+    margin-bottom: 30px;
+
+    font-size: 30px;
+
+
+
+    color: #333;
+
+}
+
+/* =========================
+
+   FORM GROUP
+
+========================= */
+
+.form-group {
+
+    margin-bottom: 20px;
+    text-align: left;
+
+
+}
+
+/* =========================
+
+   LABEL
+
+========================= */
+
+.form-group label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+
+
+}
+
+/* =========================
+
+   INPUT
+
+========================= */
+
+.form-input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+
+    box-sizing: border-box;
+
+}
+
+/* Input focus */
+
+.form-input:focus {
+
+    outline: none;
+
+    border-color: #007BFF;
+
+}
+
+/* =========================
+
+   SUBMIT BUTTON
+
+========================= */
+
+.btn {
+
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+/* Hover */
+
+.btn:hover {
+
+    background: #0056b3;
+
+}
+
+/* =========================
+
+   LOGIN TEXT
+
+========================= */
+
+.register-box p {
+
+    margin-top: 20px;
+    text-align: center;
+    color: #007BFF;
+    text-decoration: none;
+
+}
+
+/* Login link */
+
+.register-box p a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+/* Task Box */
+
+.task-box {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.task-form input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.task-form .btn {
+    width: auto;
+    padding: 12px 20px;
+}
+
+/* Task Table */
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+    background-color: #f2f2f2;
+}
+
+.task-table tr:hover {
+    background-color: #fafafa;
+}
+
+/* Badges */
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+}
+
+.badge.pending {
+    background-color: #ffc107;
+    color: #856404;
+}
+
+.badge.working {
+    background-color: #17a2b8;
+}
+
+.badge.done {
+    background-color: #28a745;
+}
+
+/* Buttons */
+
+.btn-small {
+    padding: 7px 12px;
+    border: none;
+    border-radius: 5px;
+    background: #444;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.btn-small:hover {
+    background: #222;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+    padding: 7px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+.btn-clear {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-clear:hover {
+    background-color: #c82333;
+}
+
+/* No Task */
+
+.no-task {
+    padding: 20px;
+    text-align: center;
+    color: #777;
+    background: #f8f8f8;
+    border-radius: 6px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #343a40;
+    color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+footer p {
+    margin: 0;
+}
